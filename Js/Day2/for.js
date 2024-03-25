@@ -52,3 +52,13 @@ for (let j = 1; j < 5; j++) {
 //     star += "\n"
 // }
 // console.log(star)
+
+//for in 반복문 열거 가능한 속성(enumerable properties)을 순회
+const obj = { a: 1, b: 2, c: 3 };
+for (const key in obj) {
+  console.log(key); // "a", "b", "c"를 순서대로 출력
+  console.log(obj[key]); // 1, 2, 3을 순서대로 출력
+}
+
+//for of 반복문
+//for (const 반복변수 of 배열, 객체) { 실행할 명령}
