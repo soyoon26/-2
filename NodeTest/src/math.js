@@ -14,9 +14,11 @@ function divide(a, b) {
   return a / b;
 }
 
-module.exports = {
-  add,
-  sub, //key값과 같다면 이름만 적어도 된다.
-  multi,
-  divide,
-};
+// module.exports = {
+//   add,
+//   sub, //key값과 같다면 이름만 적어도 된다.
+//   multi,
+//   divide,
+// };
+
+export { add, sub };

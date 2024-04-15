@@ -1,5 +1,6 @@
 //const moduleData = require("./math");
-const { add, sub, multi, divide } = require("./math");
+// const { add, sub, multi, divide } = require("./math");
+import { add, sub } from "./math";
 // console.log(moduleData);
 // console.log(moduleData.add(3, 4));
 // console.log(moduleData.sub(3, 4));

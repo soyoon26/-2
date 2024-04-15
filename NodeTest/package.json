@@ -8,5 +8,6 @@
     "start": "node src/index.js"
   },
   "author": "Isang",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
